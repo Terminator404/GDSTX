@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>广东省团校</title>
+    <link rel="stylesheet" href="css/base.min.css"/>
+    <link rel="stylesheet" href="css/slidePic.css"/>
+    <link rel="stylesheet" href="js/video.js/video-js.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script type="text/javascript" src="js/jquery1.42.min.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js\"></script>
+    <script type="text/javascript" src="js/video.js/video.js"></script>
+    <script>
+        videojs.options.flash.swf = "video-js.swf";
+    </script>
+    <!--[if lt IE 9]>
+    <script> (function () {
+        if (!/*@cc_on!@*/0)return;
+        var e = "abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(','), i = e.length;
+        while (i--) {
+            document.createElement(e[i])
+        }
+    })() </script>
+    <![endif]-->
+</head>
+<body>
+<header>
+    <div id="nav">
+        <div id="top">
+            <div class="w-main f-bc f-pr">
+                <i class="f-icon f-pt5 f-fl f-f26" style="color: #adadad">&#xe605;</i>
+                <p class="f-fl f-pl5">2015年8月20日 星期四</p>
+                <i class="f-icon f-pt5 f-fl f-pl10 f-f26" style="color: #adadad">&#xe602;</i>
+                <p class="f-fl f-pl5">客服热线：020-62784188</p>
+                <a href=""><i class="f-icon f-fr f-pr15 f-pt5 f-f26" style="color: #c93c3c">&#xe60b;</i></a>
+                <a href=""><i class="f-icon f-fr f-pr10 f-pt5 f-f26" style="color: #62b900">&#xe60c;</i></a>
+            </div>
+        </div>
+
+        <div class="w-main f-bc f-pr">
+            <div class="logo">
+                <img src="img/logo.png">
+            </div>
+            <nav class="f-pa f-cb">
+                <a href="" class="nav-a">
+                    <i class="f-nav-icon">&#xe606;</i>
+                    <p>首页</p>
+                </a>
+                <a href="" class="nav-a">
+                    <i class="f-nav-icon">&#xe609;</i>
+                    <p>团校简介</p>
+                </a>
+                <a href="" class="nav-a">
+                    <i class="f-nav-icon">&#xe603;</i>
+                    <p>通知公告</p>
+                </a>
+                <a href="" class="nav-a">
+                    <i class="f-nav-icon">&#xe608;</i>
+                    <p>新闻动态</p>
+                </a>
+                <a href="" class="nav-a">
+                    <i class="f-nav-icon">&#xe600;</i>
+
+                    <p>课程介绍</p>
+                </a>
+                <a href="" class="nav-a">
+                    <i class="f-nav-icon">&#xe607;</i>
+                    <p>师资介绍</p>
+                </a>
+                <a href="" class="nav-a">
+                    <i class="f-nav-icon">&#xe601;</i>
+                    <p>资料下载</p>
+                </a>
+                <a href="" class="nav-a">
+                    <i class="f-nav-icon">&#xe604;</i>
+                    <p>网上考试</p>
+                </a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="container1">
+    <div id="pic-display">
+        <div id="slideBox" class="slideBox">
+            <div class="bd">
+                <ul>
+                    <li><a href="" target="_blank"><img src="img/1a.jpg" /></a></li>
+                    <li><a href="" target="_blank"><img src="img/1b.jpg" /></a></li>
+                    <li><a href="" target="_blank"><img src="img/1c.jpg" /></a></li>
+                </ul>
+            </div>
+            <!-- 下面是前/后按钮代码，如果不需要删除即可 -->
+            <a class="prev" href="javascript:void(0)"></a>
+            <a class="next" href="javascript:void(0)"></a>
+        </div>
+        <script type="text/javascript">
+            jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true});
+        </script>
+    </div>
+
+    <div class="search">
+        <div class="w-main f-bc f-pr">
+            <i class="f-fl f-icon f-pr10  f-f26" style="padding-top: 8px;">&#xe60d;</i>
+            <input type="search" style="color:#757575;" value="想知道？搜索一下！"onfocus="if (value =='想知道？搜索一下！'){value =''}"onblur="if (value ==''){value='想知道？搜索一下！'}">
+            <button>搜索</button>
+            <lable style="color: #e13545;line-height: 50px;padding-left: 5px;" >热门搜索：</lable>
+            <lable style="color: #ababab;">2016培训考试结果&nbsp;</lable>
+            <lable style="color: #ababab;">第十三周课表</lable>
+        </div>
+    </div>
+
+    <div class="login">
+        <div class="w-main f-bc f-pr">
+            <div class="login-container">
+                <button class="login-choice" style="background-color: #18c0cf;">
+                    <i class="f-icon f-fl f-pt10 f-pl20" style="color:#fff;background-color: #18c0cf;font-size: 32px;">&#xe60e;</i>
+                    <p class="f-fl f-pl20" >网上报名</p>
+                </button>
+                <button class="login-choice" style="background-color: #22b34e">
+                    <i class="f-icon f-fl f-pt5 f-pl20" style="color:#fff;background-color: #22b34e;font-size: 35px">&#xe60f;</i>
+                    <p class="f-fl f-pl20" >我要办班</p>
+                </button>
+                <button class="login-choice" style="background-color: #c1202f">
+                      <p class="f-fl f-pl60" >用户登录</p>
+                </button>
+                <button class="login-choice" style="background-color: #737383">
+                    <p class="f-fl f-pl60" >用户注册</p>
+                </button>
+                <a href="" style="color: #c1202f;text-decoration: underline;float: right;line-height: 110px" >忘记登录密码？</a>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<div class="container2">
+    <div class="three-choice">
+        <div class="w-main f-bc f-pr">
+            <div class="choice-container">
+                <div class="single-choice">
+                    <div class="backimg" style="background-image: url(img/3.png)">
+                        <a href=""><div class="red-lable">
+                            <div class="labletxt">青年研究</div>
+                        </div>
+                        </a>
+                    </div>
+                    <p>青年研究(research of youth)泛指以青年为对象的多学科理论研究活动。 现代意义上的青年研究发端于20世纪初期的美国...</p>
+                </div>
+                <div class="single-choice">
+                    <div class="backimg" style="background-image: url(img/31.png)">
+                        <a href=""><div class="red-lable"><div class="labletxt">教育培训</div></div></a>
+                    </div>
+                    <p>青年研究(research of youth)泛指以青年为对象的多学科理论研究活动。 现代意义上的青年研究发端于20世纪初期的美国...</p>
+                </div>
+                <div class="single-choice">
+                    <div class="backimg" style="background-image: url(img/32.png)">
+                        <a href=""><div class="red-lable"><div class="labletxt">学历考证</div></div></a>
+                    </div>
+                    <p>青年研究(research of youth)泛指以青年为对象的多学科理论研究活动。 现代意义上的青年研究发端于20世纪初期的美国...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="big-play">
+        <video  id="video" class="video-js vjs-default-skin" controls preload="none" width="100%"  height="380" poster="img/11.png" data-setup="{}">
+            <source src="" type='video/mp4' />
+            <source src="" type='video/webm' />
+            <source src="" type='video/ogg' />
+            <track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+            <track kind="subtitles" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+        </video>
+    </div>
+
+    <div class="small-play">
+        <div class="w-main f-bc f-pr">
+            <div class="album">
+                <div class="before-title"></div>
+                <div class="title" style="width: 120px;">
+                    培训班图册展示
+                </div>
+                <a href="" class="f-fr f-f14" style="color: #999999;margin-right: 50px;">更多</a>
+                <div class="album-play">
+                    <div class="picScroll-left">
+                        <a class="prev f-fl "><</a>
+                        <div class="bd">
+                            <ul class="picList f-fl " >
+                                <li>
+                                    <div class="pic"><a href="" target="_blank"><img src="img/2a.jpg" /></a></div>
+                                    <div class="pictitle"><a href="" target="_blank">团教育活动</a></div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a href="" target="_blank"><img src="img/2b.jpg" /></a></div>
+                                    <div class="pictitle"><a href="" target="_blank">团教育活动</a></div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a href="" target="_blank"><img src="img/2c.jpg" /></a></div>
+                                    <div class="pictitle"><a href="" target="_blank">团教育活动</a></div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a href="" target="_blank"><img src="img/2a.jpg" /></a></div>
+                                    <div class="pictitle"><a href="" target="_blank">团教育活动</a></div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a href="" target="_blank"><img src="img/2b.jpg" /></a></div>
+                                    <div class="pictitle"><a href="" target="_blank">团教育活动</a></div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a href="" target="_blank"><img src="img/2c.jpg" /></a></div>
+                                    <div class="pictitle"><a href="" target="_blank">团教育活动</a></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <a class="next f-fr">></a>
+                    </div>
+                    <script type="text/javascript">
+                        jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:4});
+                    </script>
+                </div>
+            </div>
+
+            <div class="microvideo">
+                <div class="before-title"></div>
+                <div class="title" style="width: 60px;">
+                    微视频
+                </div>
+                <a href="" class="f-fr f-f14" style="color: #999999">更多</a>
+                <div class="video-play">
+                    <div class="single-video f-fl" style="background-image: url(img/3a.png);">
+                        <a href=""><img src="img/0.png" class="playBtn"></a>
+                    </div>
+                    <div class="single-video f-fr " style="background-image: url(img/3b.png);">
+                        <a href=""><img src="img/0.png" class="playBtn"></a>
+                    </div>
+                    <div class="single-video f-fl" style="margin-top: 34px;background-image: url(img/3c.png)">
+                        <a href=""><img src="img/0.png" class="playBtn"></a>
+                    </div>
+                    <div class="single-video f-fr" style="margin-top: 34px;background-image: url(img/3d.png)">
+                        <a href=""><img src="img/0.png" class="playBtn"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="w-main f-bc f-pr">
+       <div class="footer-clumn">
+           <p>友情链接</p>
+           <ul class="f-fl" style="margin: 0;padding: 0;">
+               <li><a href="http://www.gdylc.cn/" target="_blank">·&nbsp;广东青年职业技术学院</a>  </li>
+               <li><a href="http://www.54cn.net/" target="_blank" >·&nbsp;广州共青团</a>  </li>
+               <li><a href="http://www.gz.gov.cn/" target="_blank">·&nbsp;广州市人民政府</a></li>
+           </ul>
+           <ul class="f-fl f-pl50 " style="margin: 0;">
+           <li><a href="" >·&nbsp;广东青年职业技术学院</a>  </li>
+           <li><a href="" >·&nbsp;广州共青团</a>  </li>
+           <li><a href="">·&nbsp;广州市人民政府</a></li>
+           </ul>
+       </div>
+
+        <div class="footer-clumn">
+            <div class="split f-fl"></div>
+            <p class="f-pl50">广东省团校 版权所有 备案号：21435</p>
+            <ul class="f-fl f-pl50 " style="margin: 0;">
+            <li><a href="" >联系电话：020-2154145</a>  </li>
+            <li><a href="" type="email" > 电子邮箱：example@xx.com</a>  </li>
+            <li><a href="">  联系地址：</a></li>
+                </ul>
+        </div>
+        <div class="footer-clumn">
+            <div class="split f-fl"></div>
+            <img src="img/scan.png" class="f-pt10 f-pl50">
+            <p class="f-fr" style="padding-right:120px;padding-top: 40px;">微信扫一扫</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
